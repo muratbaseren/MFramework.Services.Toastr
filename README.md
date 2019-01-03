@@ -2,6 +2,10 @@
 # nuget-mvc-toastr-service
 MFramework MVC Toastr service for mvc 5 apps.
 
+| Build server| Platform       | Status      |
+|-------------|----------------|-------------|
+| AppVeyor    | Windows        |[![Build status](https://ci.appveyor.com/api/projects/status/90h8oq7f4pftewy9?svg=true)](https://ci.appveyor.com/project/muratbaseren/nuget-mvc-toastr-service) |
+
 > install-package MFramework.Toastr.Service
 
 ## First
