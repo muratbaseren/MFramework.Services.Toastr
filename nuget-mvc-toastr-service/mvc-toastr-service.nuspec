@@ -6,10 +6,10 @@
     <authors>Kadir Murat Başeren</authors>
     <title>MFramework.Toastr.Service</title>
     <owners>Kadir Murat Başeren</owners>
-    <projectUrl></projectUrl>
+    <projectUrl>https://github.com/muratbaseren/nuget-mvc-toastr-service</projectUrl>
     <iconUrl></iconUrl>
-    <description></description>
-    <summary></summary>
+    <description>Toastr service for ASP.NET MVC 5 Apps.</description>
+    <summary>Toastr service for ASP.NET MVC 5 Apps.</summary>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>aspnet,mvc,jquery,toastr,notification</tags>
     <copyright>Copyright Kadir Murat Başeren</copyright>
