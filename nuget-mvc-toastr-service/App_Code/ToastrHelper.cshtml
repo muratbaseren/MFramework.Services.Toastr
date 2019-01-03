@@ -1,6 +1,6 @@
 ﻿@helper ProcessToastrs()
 {
-    List<(DateTime Date, string SessionId, WebApplication28.Toastr Toastr)> toastrs = WebApplication28.ToastrService.ReadAndRemoveUserQueue();
+    List<(DateTime Date, string SessionId, nuget_mvc_toastr_service.Toastr Toastr)> toastrs = nuget_mvc_toastr_service.ToastrService.ReadAndRemoveUserQueue();
 
     if (toastrs != null && toastrs.Count > 0)
     {
@@ -11,21 +11,21 @@
     }
 }
 
-@helper ShowToastr(WebApplication28.Toastr item)
+@helper ShowToastr(nuget_mvc_toastr_service.Toastr item)
 {
 
     switch (item.Type)
     {
-        case WebApplication28.ToastrType.Info:
+        case nuget_mvc_toastr_service.ToastrType.Info:
             @ToastrInfo(item.Message, item.Title)
             break;
-        case WebApplication28.ToastrType.Success:
+        case nuget_mvc_toastr_service.ToastrType.Success:
             @ToastrSuccess(item.Message, item.Title)
             break;
-        case WebApplication28.ToastrType.Warning:
+        case nuget_mvc_toastr_service.ToastrType.Warning:
             @ToastrWarning(item.Message, item.Title)
             break;
-        case WebApplication28.ToastrType.Error:
+        case nuget_mvc_toastr_service.ToastrType.Error:
             @ToastrError(item.Message, item.Title)
             break;
         default:
