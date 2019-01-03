@@ -18,7 +18,6 @@
         <dependency id="System.ValueTuple" version="4.5.0" />
         <dependency id="toastr" version="2.1.1" />
         <dependency id="bootstrap" version="4.1.3" />
-        <dependency id="jQuery" version="3.3.1" />
         <dependency id="FontAwesome" version="4.7.0" />
       </group>
     </dependencies>
@@ -26,6 +25,7 @@
   <files>
     <file src="App_Code\**\*.*" target="content\App_Code" />
     <file src="Services\**\*.*" target="content\Services" />
+    <file src="Scripts\toastr.config.js" target="content\Scripts\toastr.config.js" />
   </files>
 </package>
 
