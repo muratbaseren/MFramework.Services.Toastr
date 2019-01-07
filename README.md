@@ -1,5 +1,5 @@
 
-# nuget-mvc-toastr-service
+# MFramework.Services.Toastr
 MFramework MVC Toastr service for mvc 5 apps.
 
 | Build server| Platform       | Status      |
@@ -7,7 +7,7 @@ MFramework MVC Toastr service for mvc 5 apps.
 | AppVeyor    | Windows        |[![Build status](https://ci.appveyor.com/api/projects/status/90h8oq7f4pftewy9?svg=true)](https://ci.appveyor.com/project/muratbaseren/nuget-mvc-toastr-service) |
 
 ## Nuget
-> install-package MFramework.Toastr.Service
+> install-package MFramework.Services.Toastr
 
 ## First
 Add Toastr CSS and JS to **_Layout**. Also add another CSS and JS files..
