@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>MFramework.Toastr.Service</id>
+    <id>MFramework.Services.Toastr</id>
     <version>$version$</version>
     <authors>Kadir Murat Başeren</authors>
-    <title>MFramework.Toastr.Service</title>
+    <title>MFramework.Services.Toastr</title>
     <owners>Kadir Murat Başeren</owners>
     <projectUrl>https://github.com/muratbaseren/nuget-mvc-toastr-service</projectUrl>
     <iconUrl>https://github.com/muratbaseren/nuget-mvc-toastr-service/blob/master/assets/toastr-icon.png?raw=true</iconUrl>
